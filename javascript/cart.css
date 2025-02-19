@@ -7,11 +7,11 @@ body{
   }
   
   .tarjeta-producto2{
-    background-color: #fff;
+    background-color: #ec1a1a;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: auto;   /* Tamaño fijo para la tarjeta */
-  padding: 8px;
+  width: auto;   
+  padding: 10px;
   text-align: center;
   display: flex;
   transition: transform 0.3s ease;
@@ -53,7 +53,7 @@ body{
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);}
     #carrito-vacio a {
-      color: black; 
+      color: blue; 
   }
   #totales  button{
     background-color: red;

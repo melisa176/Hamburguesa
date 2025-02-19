@@ -9,7 +9,7 @@ body, html {
 
 #logo {
   height: 80px;
-  width: 90px;
+  width: 80px;
 }
 
 #logo-carrito {
@@ -37,6 +37,7 @@ header nav .nav-brand {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  text-align: center;
   gap: 15px;  /* Ajuste el espacio entre logo y nombre */
 }
 
@@ -100,7 +101,7 @@ button {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 30%;   /* Tamaño fijo para la tarjeta */
-  padding: 3px;
+  padding: 10px;
   text-align: center;
   display: flex;
   transition: transform 0.3s ease;
@@ -140,12 +141,12 @@ button {
 .informacion-producto h3 {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #333;
+  color: #000000;
   margin: 10px 0;
 }
 
 .informacion-producto .descripcion {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #777;
   margin-bottom: 10px;
 }
@@ -153,7 +154,7 @@ button {
 .informacion-producto .precio {
   font-size: 1.1rem;
   font-weight: bold;
-  color: #002395;
+  color: red;
   margin: 10px 0;
 }
 
@@ -163,11 +164,11 @@ button {
   background-color: #002395;  /* Fondo azul */
   color: white;               /* Texto blanco */
   border: none;               /* Sin borde */
-  padding: 12px 20px;         /* Relleno del botón (más alto y ancho) */
-  border-radius: 25px;        /* Bordes redondeados */
+  padding: 9px 10px;         /* Relleno del botón (más alto y ancho) */
+  border-radius: 20px;        /* Bordes redondeados */
   width: auto;                /* Ancho automático */
   cursor: pointer;           /* Cursor en forma de mano al pasar sobre el botón */
-  font-size: 1rem;            /* Tamaño de texto */
+  font-size: 0.9rem;            /* Tamaño de texto */
   text-align: center;         /* Alineación del texto */
   font-weight: bold;          /* Texto en negrita */
   transition: background-color 0.3s ease;  /* Transición suave */
