@@ -3,24 +3,33 @@
     margin: auto;
   }
   
-  .tarjeta-producto{
-    display: flex;
-    align-items: center;
-    height: 100px;
-    gap: 20px;
+  .tarjeta-producto2{
+    background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: auto;   /* Tamaño fijo para la tarjeta */
+  padding: 3px;
+  text-align: center;
+  display: flex;
+  transition: transform 0.3s ease;
+  margin: 5px;
+  align-items: center;
   }
   
-  .tarjeta-producto img{
-    height: 100%;
+  .tarjeta-producto2 img{
+    height: 40%;
+    width: 50%;
   }
   
-  .tarjeta-producto h3{
+  .tarjeta-producto2 h3{
     width: 130px;
+ 
   }
-  .tarjeta-producto div{
+  .tarjeta-producto2 div{
     background-color: var(--color-acento-claro);
     padding: 3px;
     border-radius: 5px;
+    margin: 5px;
   }
   
   #totales{
@@ -30,3 +39,6 @@
   #carrito-vacio{
     text-align: center;
   }
+  .tarjeta-producto2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);}
