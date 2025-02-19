@@ -63,17 +63,18 @@ a {
 }
 
 a:hover:not(#cart) {
-  color: red;
+  color: rgb(0, 38, 255);
 }
 
 #conteo_carrito {
-  background-color: red;
+  background-color: rgb(0, 255, 55);
   border-radius: 100%;
   display: inline-block;
   height: 25px;
   line-height: 25px;
   aspect-ratio: 1;
   text-align: center;
+  color: black;
   position: absolute;
 }
 
@@ -125,7 +126,8 @@ button {
   width: 50%;
   height: 80%;
   border-radius: 5px;
-  margin-bottom: 3px;
+  margin: 5px;
+  box-shadow: 0 8px 16px rgba(202, 189, 189, 0.2);
 }
 
 /* Información del producto */
