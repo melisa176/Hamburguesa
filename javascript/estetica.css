@@ -79,14 +79,13 @@ a:hover:not(#cart) {
 }
 
 button {
-  background-color: rgb(233, 16, 16);
+  background-color: rgb(12, 8, 218);
   color: #e5e5e6;
   border-radius: 7px;
   border: unset;
   cursor: pointer;
   height: 20px;
-  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
-  color: white;
+  
 }
 #productos-container {
   display: flex;

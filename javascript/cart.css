@@ -42,6 +42,8 @@ body{
   
   #totales{
     text-align: center;
+    color: rgb(0, 0, 0);
+  font-weight: bold; 
   }
   
   #carrito-vacio{
@@ -53,3 +55,8 @@ body{
     #carrito-vacio a {
       color: black; 
   }
+  #totales  button{
+    background-color: red;
+    color: white;
+ font-weight: bold; 
+ }
